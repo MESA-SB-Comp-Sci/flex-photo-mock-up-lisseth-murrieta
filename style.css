@@ -81,7 +81,7 @@
 
 .nav-link {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: white;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .hero-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
@@ -131,6 +131,7 @@
 
 .main {
   display: flex;
+  flex: 1;
   flex-direction: row;
   gap: 16px;
   padding: 20px;
@@ -222,9 +223,9 @@
   background-color: #D3D1C7;
   border-radius: 6px;
   padding: 40px 20px;
-  font-size: 13px;
+  font-size: 0.85rem;
   color: #5F5E5A;
-  text-align: center;
+  text-align: start;
   flex: 1;  
 }
 
